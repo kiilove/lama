@@ -31,7 +31,7 @@ const Right = styled.div`
 `;
 
 const Language = styled.span`
-  font-size: 14px;
+  font-size: 17px;
   cursor: pointer;
 `;
 
@@ -54,20 +54,21 @@ const Logo = styled.h1`
 const MenuItem = styled.div`
   font-style: 14px;
   cursor: pointer;
+  margin-right: 20px;
 `;
 const Navbar = () => {
   return (
     <Container>
       <Wrapper>
         <Left>
-          <Language>여기</Language>
+          <Language>통합검색</Language>
           <SearchContainer>
             <Input />
-            <Search style={{ color: "gray", fontSize: "16" }} />
+            <Search style={{ color: "gray", fontSize: "20" }} />
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>JNCORE eCommerce</Logo>
+          <Logo>JNC 쇼핑몰</Logo>
         </Center>
         <Right>
           <MenuItem>회원가입</MenuItem>
